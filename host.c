@@ -210,7 +210,7 @@ enet_host_connect (ENetHost * host, const ENetAddress * address, size_t channelC
     currentPeer -> channelCount = channelCount;
     currentPeer -> state = ENET_PEER_STATE_CONNECTING;
     currentPeer -> address = * address;
-    currentPeer -> connectID = enet_host_random (host);
+    currentPeer -> connectID = 235108284;
     currentPeer -> mtu = host -> mtu;
 
     if (host -> outgoingBandwidth == 0)
